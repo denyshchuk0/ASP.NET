@@ -1,0 +1,7 @@
+C:\prod\TestProject.exe
+C:\prod\appsettings.Development.json
+C:\prod\appsettings.json
+C:\prod\TestProject.dll
+C:\prod\TestProject.deps.json
+C:\prod\TestProject.runtimeconfig.json
+C:\prod\TestProject.pdb

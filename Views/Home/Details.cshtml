@@ -1,0 +1,30 @@
+﻿@{
+
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Details";
+}
+
+<div class="container">
+    <h2>Details</h2>
+    <div class="list-group contact-group">
+        <a href="#" class="list-group-item">
+            <div class="media">
+                <div class="pull-left">
+                    <img class="img-circle" src="@Model.Avatar" alt="...">
+                </div>
+                <div class="media-body">
+                    <h4 class="media-heading">@Model.Name <small> @Model.Position </small></h4>
+                    <div class="media-content">
+                        <i class="fa fa-map-marker"></i> @Model.Address
+                        <ul class="list-unstyled">
+                            <li><i class="fa fa-skype"></i> @Model.NickName</li>
+                            <li><i class="fa fa-mobile"></i> @Model.PhoneNumber</li>
+                            <li><i class="fa fa-envelope-o"></i> @Model.Email</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </a>
+    </div>
+</div>
