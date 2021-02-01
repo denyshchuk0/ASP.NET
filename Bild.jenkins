@@ -15,7 +15,7 @@ pipeline  {
             steps {
                 echo 'Creating docker image ...'
                 dir('.'){
-                    sh "docker build -t denyshchuk/ASP.NET . "
+                    sh "docker build -t denyshchuk/asp.net . "
                 }
             }
         }
@@ -33,7 +33,7 @@ pipeline  {
             steps {
                 echo " ============== pushing image =================="
                 sh '''
-                docker push denyshchuk/ASP.NET:latest
+                docker push denyshchuk/asp.net:latest
                 '''
             }
         }
