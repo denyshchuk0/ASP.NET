@@ -44,7 +44,7 @@ pipeline  {
                 docker stop asp.net
                 '''}
             }
-        } 
+        
        stage("docker remove") {
           steps {
                echo " ============== removing all docker containers =================="
