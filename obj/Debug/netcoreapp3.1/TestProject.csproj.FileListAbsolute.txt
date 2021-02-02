@@ -101,3 +101,40 @@ C:\Users\k2\Desktop\Lessons\asp.net core\TestProject\obj\Debug\netcoreapp3.1\Tes
 C:\Users\k2\Desktop\Lessons\asp.net core\TestProject\obj\Debug\netcoreapp3.1\TestProject.pdb
 C:\Users\k2\Desktop\Lessons\asp.net core\TestProject\obj\Debug\netcoreapp3.1\TestProject.genruntimeconfig.cache
 C:\Users\k2\Desktop\Lessons\asp.net core\TestProject\obj\Debug\netcoreapp3.1\TestProject.csproj.CopyComplete
+D:\шаг\asp.net\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\шаг\asp.net\bin\Debug\netcoreapp3.1\appsettings.json
+D:\шаг\asp.net\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+D:\шаг\asp.net\bin\Debug\netcoreapp3.1\TestProject.exe
+D:\шаг\asp.net\bin\Debug\netcoreapp3.1\TestProject.deps.json
+D:\шаг\asp.net\bin\Debug\netcoreapp3.1\TestProject.runtimeconfig.json
+D:\шаг\asp.net\bin\Debug\netcoreapp3.1\TestProject.runtimeconfig.dev.json
+D:\шаг\asp.net\bin\Debug\netcoreapp3.1\TestProject.dll
+D:\шаг\asp.net\bin\Debug\netcoreapp3.1\TestProject.pdb
+D:\шаг\asp.net\bin\Debug\netcoreapp3.1\TestProject.Views.dll
+D:\шаг\asp.net\bin\Debug\netcoreapp3.1\TestProject.Views.pdb
+D:\шаг\asp.net\bin\Debug\netcoreapp3.1\Docker.DotNet.dll
+D:\шаг\asp.net\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\шаг\asp.net\obj\Debug\netcoreapp3.1\TestProject.csprojAssemblyReference.cache
+D:\шаг\asp.net\obj\Debug\netcoreapp3.1\TestProject.csproj.CoreCompileInputs.cache
+D:\шаг\asp.net\obj\Debug\netcoreapp3.1\TestProject.MvcApplicationPartsAssemblyInfo.cache
+D:\шаг\asp.net\obj\Debug\netcoreapp3.1\TestProject.RazorAssemblyInfo.cache
+D:\шаг\asp.net\obj\Debug\netcoreapp3.1\TestProject.RazorAssemblyInfo.cs
+D:\шаг\asp.net\obj\Debug\netcoreapp3.1\TestProject.AssemblyInfoInputs.cache
+D:\шаг\asp.net\obj\Debug\netcoreapp3.1\TestProject.AssemblyInfo.cs
+D:\шаг\asp.net\obj\Debug\netcoreapp3.1\TestProject.TagHelpers.input.cache
+D:\шаг\asp.net\obj\Debug\netcoreapp3.1\TestProject.TagHelpers.output.cache
+D:\шаг\asp.net\obj\Debug\netcoreapp3.1\TestProject.RazorCoreGenerate.cache
+D:\шаг\asp.net\obj\Debug\netcoreapp3.1\Razor\Views\Home\About.cshtml.g.cs
+D:\шаг\asp.net\obj\Debug\netcoreapp3.1\Razor\Views\Home\Details.cshtml.g.cs
+D:\шаг\asp.net\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+D:\шаг\asp.net\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\шаг\asp.net\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+D:\шаг\asp.net\obj\Debug\netcoreapp3.1\TestProject.RazorTargetAssemblyInfo.cache
+D:\шаг\asp.net\obj\Debug\netcoreapp3.1\TestProject.RazorTargetAssemblyInfo.cs
+D:\шаг\asp.net\obj\Debug\netcoreapp3.1\TestProject.Views.pdb
+D:\шаг\asp.net\obj\Debug\netcoreapp3.1\TestProject.csproj.CopyComplete
+D:\шаг\asp.net\obj\Debug\netcoreapp3.1\staticwebassets\TestProject.StaticWebAssets.Manifest.cache
+D:\шаг\asp.net\obj\Debug\netcoreapp3.1\staticwebassets\TestProject.StaticWebAssets.xml
+D:\шаг\asp.net\obj\Debug\netcoreapp3.1\TestProject.dll
+D:\шаг\asp.net\obj\Debug\netcoreapp3.1\TestProject.pdb
+D:\шаг\asp.net\obj\Debug\netcoreapp3.1\TestProject.genruntimeconfig.cache

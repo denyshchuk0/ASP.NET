@@ -229,7 +229,7 @@ CONTACT MODAL VIEW
 
     .page-people-directory .modal-pull-right .modal-dialog .modal-body .contact-header .dialog-close li {
         cursor: pointer;
-        color: cadetblue;
+        color: white;
         text-align: right;
     }
 
@@ -239,7 +239,7 @@ CONTACT MODAL VIEW
         }
 
             .page-people-directory .modal-pull-right .modal-dialog .modal-body .contact-header .dialog-close li span.fa:hover {
-                color: gray;
+                color: red;
             }
 
     .page-people-directory .modal-pull-right .modal-dialog .modal-body .contact-view-content .contact-view-action {
