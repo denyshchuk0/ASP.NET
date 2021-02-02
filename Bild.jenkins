@@ -37,7 +37,7 @@ pipeline  {
                 '''
             }
         }
-        variable=$(docker ps | grep denyshchuk/asp.net | wc -l)
+        variable=sh " docker ps | grep denyshchuk/asp.net | wc -l "
 
         stage("docker stop") {
          if(variable==1){
