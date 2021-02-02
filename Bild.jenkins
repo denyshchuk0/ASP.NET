@@ -44,19 +44,19 @@ pipeline  {
             steps {
                 echo " ============== check all images =================="
                 script {
-                 foo =  sh '''
+                 foo =  {sh '''
                 docker ps | grep denyshchuk/asp.net | wc -l
-                '''
+                '''}
              }
            }  
         } 
+
         stage("docker stop") {
             steps {
                 echo " ============== stoping all images =================="
                 sh '''
                 docker stop asp.net
-                '''}
-            
+                '''} 
         } 
        stage("docker remove") {
           steps {
