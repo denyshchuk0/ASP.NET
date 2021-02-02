@@ -1,9 +1,6 @@
 #!groovy
 //  groovy Jenkinsfile
 properties([disableConcurrentBuilds()])
-node{
-def img = $(docker ps | grep denyshchuk/asp.net | wc -l)
-}
 
 pipeline  {
     agent { 
@@ -25,7 +22,6 @@ pipeline  {
         stage("docker login") {
             steps {
                 echo " ============== docker login =================="
-                echo " ============== IMG ${img} =================="
                 withCredentials([usernamePassword(credentialsId: 'DH-Cred', usernameVariable: 'USERNAME', passwordVariable: 'PASSWORD')]) {
                     sh '''
                     docker login -u $USERNAME -p $PASSWORD
