@@ -43,7 +43,7 @@ pipeline  {
             steps {
                 echo " ============== stoping all images =================="
                 sh '''
-                docker stop asp.net
+                 docker ps | grep denyshchuk/asp.net | wc -l
                 '''}
             
         } 
