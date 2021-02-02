@@ -48,7 +48,7 @@ pipeline  {
              }
            }  
         } 
-        if(foo==1){
+       stage("CHECK") {  if(foo==1){
         stage("docker stop") {
             steps {
                 echo " ============== stoping all images =================="
@@ -63,6 +63,7 @@ pipeline  {
                docker rm asp.net
               '''
            }
+       }
        }
        }
         stage("docker run") {
