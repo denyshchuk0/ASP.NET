@@ -44,7 +44,7 @@ pipeline  {
                 script {
                  foo =  ${
                 sh ''' docker ps | grep denyshchuk/asp.net | wc -l '''}
-                )
+                
                                 echo " ============== fooo ${foo} =================="
 
              }
