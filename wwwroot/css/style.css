@@ -239,7 +239,7 @@ CONTACT MODAL VIEW
         }
 
             .page-people-directory .modal-pull-right .modal-dialog .modal-body .contact-header .dialog-close li span.fa:hover {
-                color: red;
+                color: gray;
             }
 
     .page-people-directory .modal-pull-right .modal-dialog .modal-body .contact-view-content .contact-view-action {
