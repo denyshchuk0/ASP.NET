@@ -37,25 +37,13 @@ pipeline  {
                 '''
             }
         }
-                        
-        stage("docker check") {
-            steps {
-                echo " ============== check all images =================="
-                script {
-                 foo = {
-                sh ''' docker ps | grep denyshchuk/asp.net | wc -l '''}
-                
-                                echo " ============== fooo ${foo} =================="
-
-             }
-           }  
-        } 
         stage("docker stop") {
             steps {
                 echo " ============== stoping all images =================="
                 sh '''
                 docker stop asp.net
-                '''} 
+                '''}
+            }
         } 
        stage("docker remove") {
           steps {
@@ -65,8 +53,6 @@ pipeline  {
               '''
            }
        }
-       
-      
         stage("docker run") {
           steps {
                echo " ============== starting chatterbox server =================="
