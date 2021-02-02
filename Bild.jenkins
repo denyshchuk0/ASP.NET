@@ -2,7 +2,7 @@
 //  groovy Jenkinsfile
 properties([disableConcurrentBuilds()])
 
-def img = $(docker ps | grep denyshchuk/asp.net | wc -l)
+def img = $(sh "docker ps | grep denyshchuk/asp.net | wc -l")
 
 
 pipeline  {
