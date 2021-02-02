@@ -50,7 +50,6 @@ pipeline  {
              }
            }  
         } 
-       stages("CHECK") {  if(foo==1){
         stage("docker stop") {
             steps {
                 echo " ============== stoping all images =================="
@@ -66,8 +65,8 @@ pipeline  {
               '''
            }
        }
-       }
-       }
+       
+      
         stage("docker run") {
           steps {
                echo " ============== starting chatterbox server =================="
