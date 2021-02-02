@@ -42,11 +42,11 @@ pipeline  {
                 
         stage("docker check") {
             steps {
-                echo " ============== stoping all images =================="
+                echo " ============== check all images =================="
                 script {
-                 foo = $( sh '''
+                 foo =  sh '''
                 docker ps | grep denyshchuk/asp.net | wc -l
-                ''')
+                '''
              }
            }  
         } 
