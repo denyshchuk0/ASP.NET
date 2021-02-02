@@ -42,9 +42,9 @@ pipeline  {
             steps {
                 echo " ============== check all images =================="
                 script {
-                 foo =  sh '''
+                 foo =  $(
                 docker ps | grep denyshchuk/asp.net | wc -l
-                '''
+                )
                                 echo " ============== fooo ${foo} =================="
 
              }
