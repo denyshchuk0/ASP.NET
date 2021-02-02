@@ -38,12 +38,13 @@ pipeline  {
             }
         }
        
-                if( sh ''' docker ps | grep denyshchuk/asp.net | wc -l ''' == 1){
+               {
         stage("docker stop") {
             steps {
                 echo " ============== stoping all images =================="
                 sh '''
                 docker stop asp.net
+                docker ps | grep denyshchuk/asp.net | wc -l
                 '''}
             }
         } 
