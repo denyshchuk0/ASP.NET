@@ -115,8 +115,6 @@ D:\шаг\asp.net\bin\Debug\netcoreapp3.1\TestProject.Views.pdb
 D:\шаг\asp.net\bin\Debug\netcoreapp3.1\Docker.DotNet.dll
 D:\шаг\asp.net\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 D:\шаг\asp.net\obj\Debug\netcoreapp3.1\TestProject.csprojAssemblyReference.cache
-D:\шаг\asp.net\obj\Debug\netcoreapp3.1\TestProject.csproj.CoreCompileInputs.cache
-D:\шаг\asp.net\obj\Debug\netcoreapp3.1\TestProject.MvcApplicationPartsAssemblyInfo.cache
 D:\шаг\asp.net\obj\Debug\netcoreapp3.1\TestProject.RazorAssemblyInfo.cache
 D:\шаг\asp.net\obj\Debug\netcoreapp3.1\TestProject.RazorAssemblyInfo.cs
 D:\шаг\asp.net\obj\Debug\netcoreapp3.1\TestProject.AssemblyInfoInputs.cache
@@ -139,3 +137,8 @@ D:\шаг\asp.net\obj\Debug\netcoreapp3.1\TestProject.dll
 D:\шаг\asp.net\obj\Debug\netcoreapp3.1\TestProject.pdb
 D:\шаг\asp.net\obj\Debug\netcoreapp3.1\TestProject.genruntimeconfig.cache
 D:\шаг\asp.net\bin\Debug\netcoreapp3.1\libman.json
+D:\шаг\asp.net\obj\Debug\netcoreapp3.1\TestProject.csproj.CoreCompileInputs.cache
+D:\шаг\asp.net\obj\Debug\netcoreapp3.1\TestProject.MvcApplicationPartsAssemblyInfo.cache
+D:\шаг\asp.net\bin\Debug\netcoreapp3.1\System.Net.Http.Formatting.dll
+D:\шаг\asp.net\bin\Debug\netcoreapp3.1\System.Web.Http.dll
+D:\шаг\asp.net\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll

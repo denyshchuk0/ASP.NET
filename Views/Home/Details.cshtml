@@ -9,8 +9,12 @@
     <div class="list-group contact-group">
         <a href="#" class="list-group-item">
             <div class="media">
+                @if (string.IsNullOrWhiteSpace(Model.Avatar))
+                {
+                    Model.Avatar = "default.jpg";
+                }
                 <div class="pull-left">
-                    <img class="img-circle" src="@Model.Avatar" alt="...">
+                    <img class="img-circle" src="~/images/@Model.Avatar" alt="...">
                 </div>
                 <div class="media-body">
                     <h4 class="media-heading">@Model.Name <small> @Model.Position </small></h4>
